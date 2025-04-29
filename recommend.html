@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fiction addicts - the best bookclub in Nairobi</title>
+    <title>Fiction addicts - Book Recommendations</title>
 </head>
 <body>
     <nav class="navigation">
@@ -23,6 +23,34 @@
     <header class="header">
         <h1>Fiction Addicts Bookclub. Welcome!</h1>
     </header>
+    <section class="introduction">
+        <h2>Book Recommendations</h2>
+        <p>Have a book that's kept you up late flipping pages? A story you couldn't stop thinking about? Share it with us!
+            This is where members of Fiction Addicts suggest must-read fiction—from page-turning thrillers to heartwarming romances and 
+            mind-bending fantasies.</p>
+    </section>
+    <main class="form">
+        <h3>Use the form below to submit your recommendation</h3>
+        <form id="form-section">
+            <label for="title">Book Title:</label>
+            <input type="text" id="title" required><br>
+            <label for="author">Author:</label>
+            <input type="text" id="author" required><br>
+            <label for="genre">Genre:</label>
+            <input type="text" id="genre" required><br>
+            <label for="reason">Reason:</label><br>
+            <textarea id="reason" required></textarea><br>
+            <label for="quote">Favorite Quote (optional):</label><br>
+            <textarea id="quote"></textarea><br>
+
+            <button type="submit">Submit</button><br>
+        </form>
+        <p>We review recommendations regularly and feature selected picks in our monthly newsletter and group discussions!</p>
+        <h2>Community Recommendations</h2>
+            <div id="recommendations-list"></div>
+
+<script src=""></script>
+    </main>
 </body>
 <footer class="footer">
     <p></p>&copy; Cynthia Mugo 2025. All rights reserved</p>
