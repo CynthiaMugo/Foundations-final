@@ -54,7 +54,6 @@ body {
     font-style: italic;
 }
 .top-item {
-    /* border: 1px solid #D9F0FF; */
     width: 400px;
     padding: 20px;
     height: 400px;
@@ -88,7 +87,6 @@ body {
     gap: 5px;
 }
 .shelf-item {
-    /* border: 1px solid #D9F0FF; */
     width: 380px;
     padding: 20px;
     height: 400px;
@@ -109,6 +107,31 @@ body {
 #novel {
     text-align: center;
     font-style: italic;
+}
+#join-us {
+    margin-left: 300px;
+}
+.join p {
+    text-align: center;
+}
+input[type=text], [type=number] {
+    width: 40%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #83C9F4;
+}
+button {
+    margin-left: 300px;
+    width: 20%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #83C9F4;
+}
+button:hover {
+    background-color: darkblue;
+    color: white;
 }
 
 /* About.html styles */

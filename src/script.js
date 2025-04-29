@@ -9,8 +9,9 @@ document.getElementById("join-us").addEventListener("submit", function(event) {
     const user = { name, email, number }
     localStorage.setItem("fictionAddictUser", JSON.stringify(user));
 
+    // return upon success
     alert("Thanks for registering. Welcome to Fiction Addicts!");
     event.target.reset()
 
 });
-const form = document.getElementById("join-us");
+
