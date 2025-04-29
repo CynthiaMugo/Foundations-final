@@ -35,7 +35,7 @@ h2 {
 body {
     background-color: #a3d5ff;
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 10px;
     padding: 0;
 }
 .footer {
@@ -45,18 +45,19 @@ body {
     background-color: #83c9f4;
     color: #000000;
     text-align: center;
-    position: fixed;
+    /* position: fixed; */
 }
+
 /* Index.html*/
 #top {
     text-align: center;
     font-style: italic;
 }
 .top-item {
-    border: 1px solid #D9F0FF;
-    width: 450px;
+    /* border: 1px solid #D9F0FF; */
+    width: 400px;
     padding: 20px;
-    height: 450px;
+    height: 400px;
     background-color: #83C9F4;
     border-radius: 7px;
     text-align: center;
@@ -69,8 +70,51 @@ body {
     gap: 5px;
 }
 .top-item img {
-    width: 400px;
-    height: 380px;
+    width: 300px;
+    height: 360px;
     border-radius: 7px;
-    object-fit: cover;
+    /* object-fit: cover; */
+}
+.top-item p{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+.shelf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.shelf-item {
+    /* border: 1px solid #D9F0FF; */
+    width: 380px;
+    padding: 20px;
+    height: 400px;
+    background-color: #83C9F4;
+    border-radius: 7px;
+    text-align: center;
+}
+.shelf-item img {
+    width: 300px;
+    height: 360px;
+    border-radius: 7px;  
+}
+.shelf-item p{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+#novel {
+    text-align: center;
+    font-style: italic;
+}
+
+/* About.html styles */
+.about p {
+    text-align: center;
+}
+#par {
+    text-align: center;
 }
