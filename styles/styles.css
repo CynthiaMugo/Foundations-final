@@ -163,6 +163,20 @@ button:hover {
     border-radius: 7px;
     object-fit: cover;  
 }
+.founder-item button {
+    width: 30%;
+    background-color: #ffe8d6;
+}
+.founder-item button:hover {
+    background-color: #b7b7a4;
+}
+.hidden {
+    display: none;
+}
+#founder-details {
+    text-align: center;
+    font-weight: bold;
+}
 
 /* Contact-us.html */
 .contact {
