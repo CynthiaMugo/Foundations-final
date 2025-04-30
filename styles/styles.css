@@ -198,3 +198,24 @@ button:hover {
 li {
     text-align: left;
 }
+
+/* Styles for recommend.html */
+#book-form input[type=text], textarea, [type=url] {
+    width: 40%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #ddbea9;
+    margin: 2px;
+}
+#book-form button {
+    margin-left: 50px;
+    width: 10%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    /* background-color: #ddbea9; */
+}
+#recommendations-list {
+    
+}
