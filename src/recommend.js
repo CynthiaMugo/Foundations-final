@@ -1,6 +1,6 @@
 // Add recommendations to the recommendations page and make use of localStorage
 // Retrieve the data first
-let books = JSON.parse(localStorage.getItem("books")) || []; Re
+let books = JSON.parse(localStorage.getItem("books")) || [];
 let bookForm = document.getElementById("book-form");
 let recList = document.getElementById("recommendations-list");
 // let recList = [];
@@ -46,3 +46,4 @@ function displayBooks(data) {
 }
 displayBooks(books);
 // localStorage.removeItem("books");
+// console.log(JSON.parse(localStorage.getItem("books")));
