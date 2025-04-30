@@ -257,11 +257,29 @@ li {
     background-color: #ddbea9;
     margin: 2px;
 }
-#hogwarts-form button {
+#hogwarts-form button, #guess-game button {
     margin-left: 150px;
+    background-color: #ffe8d6;
+}
+#hogwarts-form button:hover, #guess-game button:hover {
+    background-color: #cb997e;
 }
 #house-result {
     font-weight: bold;
+}
+#guess-game {
+    background-color: #ddbea9;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+    height: 80%;
+    box-shadow: 0px 0px 10px #000000;
+}
+#guess-game input[type=text] {
+    width: 80%;
 }
 /* mobile & tablet view */
 @media screen and (max-width: 750px) {

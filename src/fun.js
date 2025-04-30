@@ -20,7 +20,7 @@ document.getElementById("hogwarts-form").addEventListener("submit", function(eve
       return;
     }
 
-    // Assign house
+    // Assign house using birthdate
     const day = birthDate.getDate();
     const month = birthDate.getMonth() + 1;
     const houseIndex = (day + month) % 4;
