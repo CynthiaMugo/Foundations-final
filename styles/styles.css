@@ -223,7 +223,7 @@ li {
     gap: 10px;  
 }
 .book {
-    border: 2px solid black;
+    border: 1px solid #ffe8d6;
     border-radius: 10px;
     background-color: #ddbea9;
     width: 400px;
@@ -235,6 +235,33 @@ li {
     width: 300px;
     height: 300px;
     /* object-fit: cover; */
+}
+
+/* fun.html */
+#hogwarts-form {
+    background-color: #ddbea9;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 40%;
+    height: 80%;
+    box-shadow: 0px 0px 10px #000000;
+}
+#hogwarts-form input[type=date] {
+    width: 43%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #ddbea9;
+    margin: 2px;
+}
+#hogwarts-form button {
+    margin-left: 150px;
+}
+#house-result {
+    font-weight: bold;
 }
 /* mobile & tablet view */
 @media screen and (max-width: 750px) {
