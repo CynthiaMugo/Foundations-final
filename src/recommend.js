@@ -35,7 +35,7 @@ function displayBooks(data) {
        div.innerHTML = `
        <img src="${book.image}" alt="${book.title}">
          <h4>${book.title}</h4>
-         <h4>${book.author}</h4>
+         <p>${book.author}</p>
          <p>${book.genre}</p>
          <p>${book.reason}</p>
          `;
@@ -44,4 +44,4 @@ function displayBooks(data) {
     });
 }
 displayBooks(books);
-// localStorage.removeItem("cars");
+// localStorage.removeItem("books");
