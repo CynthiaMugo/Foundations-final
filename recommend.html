@@ -32,7 +32,7 @@
     </section>
     <main class="form">
         <h3>Use the form below to submit your recommendation</h3>
-        <form id="form-section">
+        <form id="book-form">
             <label for="title">Book Title:</label>
             <input type="text" id="title" required><br>
             <label for="author">Author:</label>
@@ -41,8 +41,8 @@
             <input type="text" id="genre" required><br>
             <label for="reason">Reason:</label><br>
             <textarea id="reason" required></textarea><br>
-            <label for="quote">Favorite Quote (optional):</label><br>
-            <textarea id="quote"></textarea><br>
+            <label for="url">Cover page:</label><br>
+            <input type="url" id="image" required>
 
             <button type="submit">Submit</button><br>
         </form>
@@ -50,9 +50,9 @@
         <h2>Community Recommendations</h2>
             <div id="recommendations-list"></div>
 
-<script src=""></script>
     </main>
 </body>
+<script src="./src/recommend.js"></script>
 <footer class="footer">
     <p></p>&copy; Cynthia Mugo 2025. All rights reserved</p>
     <p><a href="mailto:cynthiamugo25@gmail.com">Email: Cynthia Mugo</a></p>

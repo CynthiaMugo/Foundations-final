@@ -14,11 +14,11 @@
 }
 a {
     text-decoration: none;
-    color: blue;
+    color: antiquewhite;
     
 }
 a:hover {
-    color: blueviolet;
+    color: azure;
 }
 .header {
     margin-top: 40px;
@@ -54,10 +54,10 @@ body {
     font-style: italic;
 }
 .top-item {
-    width: 400px;
+    width: 300px;
     padding: 15px;
     height: 400px;
-    background-color: #ddbea9;
+    /* background-color: #ddbea9; */
     border-radius: 7px;
     text-align: center;
 }
@@ -90,7 +90,7 @@ body {
     width: 380px;
     padding: 20px;
     height: 400px;
-    background-color: #ddbea9;
+    /* background-color: #ddbea9; */
     border-radius: 7px;
     text-align: center;
 }

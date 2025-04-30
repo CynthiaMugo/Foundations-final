@@ -2,7 +2,7 @@
 #### A cozy corner for book lovers to explore, share, and recommend fiction reads  
 **By Cynthia Mugo** | April 29, 2025
 ## Description
-The **Fiction Addicts Book Club** website is a fun, single-page site designed to bring together lovers of fiction. The main page displays a curated list of fiction books our members are currently reading or have recommended. Visitors can explore each title, learn more about it, and even contribute their own suggestions via a recommendation form.
+The **Fiction Addicts Book Club** website is a fun site designed to bring together lovers of fiction. The main page displays a curated list of fiction books our members are currently reading or have recommended. Visitors can explore each title, learn more about it, and even contribute their own suggestions via a recommendation form.
 
 With additional pages for *Contact Us* and *Add a Book Recommendation*, this site fosters engagement while keeping everything simple and accessible. It's fully responsive, ensuring a seamless experience across devices.
 
@@ -23,6 +23,7 @@ If you encounter any issues or have suggestions for improvements, feel free to o
 ## Technologies Used
 * HTML
 * CSS
+* Javascript
 ## Support and contact details
 If you’d like to contribute or have questions, you can reach out via:
 
