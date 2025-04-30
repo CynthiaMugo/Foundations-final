@@ -217,5 +217,21 @@ li {
     /* background-color: #ddbea9; */
 }
 #recommendations-list {
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;  
+}
+.book {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ddbea9;
+    width: 450px;
+    height: 350px;
+    text-align: center;
+    padding: 5px;
+}
+.book img {
+    width: 300px;
+    height: 200px;
 }
