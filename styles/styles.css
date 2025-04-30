@@ -236,10 +236,10 @@ li {
     height: 300px;
     /* object-fit: cover; */
 }
-/*  */
+/* mobile & tablet view */
 @media screen and (max-width: 750px) {
     body {
-      background-color: sandybrown;
+      background-color: whitesmoke;
     }
     #join-us {
         margin-left: 50px;
