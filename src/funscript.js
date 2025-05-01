@@ -14,7 +14,24 @@ const characters = [
     {
       name: "Katniss Everdeen",
       clue: "I volunteered as tribute and fight for justice with a bow and arrow."
+    },
+    {
+        name: "Daphne Bridgerton", 
+        clue: "The diamond of the season who falls for a duke with a secret." 
+    },
+    {   name: "Simon Basset", 
+        clue: "A duke who swore never to marry... until he met her." 
+    },
+    {   name: "Eve Dallas", 
+        clue: "A tough-as-nails detective with a haunted past." 
+    },
+    {   name: "Roarke", 
+        clue: "A reformed billionaire criminal with a soft spot for justice—and for her." 
+    },
+    {   name: "Harry Potter", 
+        clue: "The boy who lived, with a lightning bolt scar." 
     }
+    
   ];
   
   let currentCharacter = characters[Math.floor(Math.random() * characters.length)];
